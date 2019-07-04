@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".base.camera.BaseCameraActivity">
+
+    <com.nick.baseapp.base.camera.BaseCameraView
+        android:id="@+id/mCameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="?android:attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <FrameLayout
+            android:id="@+id/mFLBack"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="?android:attr/actionBarSize"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <ImageView
+                android:layout_margin="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/mLLToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#44444444"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <FrameLayout
+            android:id="@+id/mFLAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/mIVAlbum"
+                android:layout_margin="8dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/shape_ablum"
+                android:layout_centerInParent="true"
+
+                />
+
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/mFLShot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                android:layout_margin="8dp"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/ic_shot"
+                android:layout_centerInParent="true"
+                />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/mFLSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/mIVSettings"
+                android:layout_margin="8dp"
+                android:layout_centerInParent="true"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_settings_on"
+                />
+            </RelativeLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <com.nick.baseapp.base.camera.CameraParamList
+        android:id="@+id/mListCameraPraramKey"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/mLLToolBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#44444444"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.nick.baseapp.base.camera.CameraParamList>
+
+
+
+    <com.nick.baseapp.base.camera.CameraParamList
+        android:id="@+id/mListCameraPraramValue"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/mListCameraPraramKey"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#44444444"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.nick.baseapp.base.camera.CameraParamList>
+
+</android.support.constraint.ConstraintLayout>

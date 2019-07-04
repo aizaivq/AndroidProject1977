@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    }
+]

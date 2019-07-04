@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.via.recordscreen.MainActivity">
+
+
+
+    <com.via.recordscreen.CameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/mBTStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"
+            />
+        <Button
+            android:id="@+id/mBTStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stop"
+            android:visibility="invisible"
+            />
+        <Button
+            android:id="@+id/mBTPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pause"
+            android:visibility="invisible"
+
+            />
+        <Button
+            android:id="@+id/mBTResume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="resume"
+            android:visibility="invisible"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mBTPlay"
+            android:text="play"
+            android:visibility="invisible"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

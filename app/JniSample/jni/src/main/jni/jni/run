@@ -1,0 +1,4 @@
+ g++ -I /home/zrk/jdk/jdk1.8/include -I /home/zrk/jdk/jdk1.8/include/linux com_zrk_Main.cpp -fPIC -shared -o libNativeMethod.so
+javac -h ./ ../java/com/zrk/Main.java
+java  -classpath ../java com.zrk.Main
+

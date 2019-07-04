@@ -1,0 +1,122 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/nick/.android/build-cache/e677d0191135b6544294e4ad56ddd6cdfd20317d/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/nick/.android/build-cache/4c97408381248be6e2a150a5b5d7aa38e07209d9/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/nick/.android/build-cache/84e8876453fe6f4b6b7f3f241aa1413f4af3e3dd/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/nick/.android/build-cache/08ec3cf2fab0efa83868dc08716fbcc62f4b6e4e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/nick/.android/build-cache/2105e2aef8abc91043799d94804ccaecc32f1b29/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/nick/.android/build-cache/fc24444c35e42073b6273ce7640b0cf187ce7b3e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/nick/.android/build-cache/d2e91fbfcace55bfa57a0256ea0ccfcb071e802a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/nick/.android/build-cache/a47bbe911e924d280f774e08b2feb2999f4f44a8/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/nick/.android/build-cache/199ee2a4fdd509b21a8fdd91afdf4eaa6c1f3ffc/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:5:15-41
+		INJECTED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:9:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:10:22-77
+application
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:12:5-42:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/nick/.android/build-cache/e677d0191135b6544294e4ad56ddd6cdfd20317d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/nick/.android/build-cache/4c97408381248be6e2a150a5b5d7aa38e07209d9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/nick/.android/build-cache/84e8876453fe6f4b6b7f3f241aa1413f4af3e3dd/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/nick/.android/build-cache/08ec3cf2fab0efa83868dc08716fbcc62f4b6e4e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/nick/.android/build-cache/2105e2aef8abc91043799d94804ccaecc32f1b29/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/nick/.android/build-cache/fc24444c35e42073b6273ce7640b0cf187ce7b3e/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/nick/.android/build-cache/d2e91fbfcace55bfa57a0256ea0ccfcb071e802a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/nick/.android/build-cache/a47bbe911e924d280f774e08b2feb2999f4f44a8/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/nick/.android/build-cache/199ee2a4fdd509b21a8fdd91afdf4eaa6c1f3ffc/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:17:9-35
+	android:roundIcon
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:16:9-54
+	android:allowBackup
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:14:9-43
+	android:theme
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:18:9-40
+activity#com.via.opencv.MainActivity
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:19:19-47
+service#com.via.opencv.OpenCVService
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:27:9-29:39
+	android:exported
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:28:13-42
+activity#com.via.opencv.CameraActivity
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:31:9-52
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:31:19-49
+activity#com.via.opencv.BitmapActivity
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:32:9-52
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:32:19-49
+activity#com.via.opencv.judge.JudgePictureActivity
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:33:9-41:20
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:33:19-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /home/nick/git/gitmy/Project/Via/edu_pad/Demo/OpencvDemo/app/src/main/AndroidManifest.xml:37:27-74
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/nick/.android/build-cache/e677d0191135b6544294e4ad56ddd6cdfd20317d/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/nick/.android/build-cache/4c97408381248be6e2a150a5b5d7aa38e07209d9/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/nick/.android/build-cache/84e8876453fe6f4b6b7f3f241aa1413f4af3e3dd/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/nick/.android/build-cache/08ec3cf2fab0efa83868dc08716fbcc62f4b6e4e/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/nick/.android/build-cache/2105e2aef8abc91043799d94804ccaecc32f1b29/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/nick/.android/build-cache/fc24444c35e42073b6273ce7640b0cf187ce7b3e/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/nick/.android/build-cache/d2e91fbfcace55bfa57a0256ea0ccfcb071e802a/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/nick/.android/build-cache/a47bbe911e924d280f774e08b2feb2999f4f44a8/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/nick/.android/build-cache/b293488b8e56216a1934a62493f5c07656ea6e42/output/AndroidManifest.xml:26:9-47

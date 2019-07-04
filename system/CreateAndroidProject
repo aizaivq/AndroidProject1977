@@ -1,0 +1,1 @@
+android create project -n ViaHdmiResolution -t 1 -k com.via.hdmiresolution -a MainActivity -p ./ViaHdmiResolution

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="mPFExceptional"
+        android:title="@string/exceptional"
+        />
+
+
+    <Preference
+        android:key="mPFAuthorQQ"
+        android:title="@string/author_qq"
+        android:summary="372943264"
+        />
+
+    <Preference
+        android:key="mPFAdvice"
+        android:title="@string/advice"
+        android:summary="372943264@qq.com"
+        />
+
+    <Preference
+        android:key="mPFVersion"
+        android:title="@string/version"
+        />
+
+
+
+</PreferenceScreen>

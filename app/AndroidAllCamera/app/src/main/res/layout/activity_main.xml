@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nick.camera.MainActivity">
+
+    <com.nick.camera.view.CameraTextureView
+        android:id="@+id/mCameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Spinner
+                android:id="@+id/mSpinnerPreviewSize"
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"
+                >
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/mSpinnerAntibanding"
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"></Spinner>
+
+            <Spinner
+                android:id="@+id/mSpinnerWhiteBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"></Spinner>
+
+
+            <Spinner
+                android:id="@+id/mSpinnerSceneMode"
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"></Spinner>
+
+            <Spinner
+                android:id="@+id/mSpinnerFlashMode"
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"></Spinner>
+
+            <Spinner
+                android:id="@+id/mSpinnerColorEffect"
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"></Spinner>
+
+            <Spinner
+                android:id="@+id/mSpinnerZoom"
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"></Spinner>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <TextView
+        android:id="@+id/mTextViewFps"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+apply plugin: 'java'
+sourceSets {
+    main {
+        java {
+            srcDir 'src/java'
+        }
+
+        resources {
+            srcDir 'src/resources'
+        }
+    }
+}
+
+task gInit <<
+{
+	sourceSets.main.java.srcDirs.each { it.mkdirs() }
+   	sourceSets.main.resources.srcDirs.each { it.mkdirs() }
+	def jniFile = file(rootDir.path + '/src/main/jni')
+	def libsFile = file(rootDir.path + '/libs')
+	jniFile.mkdirs()
+	libsFile.mkdirs()
+}
+//gradle gMain -P p=com.zrk.Main
+//task gMain(type:JavaExec) {
+//    classpath = sourceSets.main.runtimeClasspath
+//    main = p
+//}
+
+//gradle gJavah -P p=com.zrk.Main
+task gJavah(type:Exec){
+	commandLine 'javah','-classpath','src/main/java','-d','src/main/jni','-jni',p
+}
+

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BaseApp</string>
+    <string name="about">关于</string>
+    <string name="version">版本</string>
+    <string name="author_qq">作者QQ</string>
+    <string name="exceptional">支付宝打赏</string>
+    <string name="advice">建议</string>
+
+    <string name="preview_size">预览尺寸</string>
+    <string name="picture_size">拍照尺寸</string>
+    <string name="window_size">窗口尺寸</string>
+
+
+    <string name="rate">频率</string>
+    <string name="white_balance">白平衡</string>
+    <string name="color_effect">色彩</string>
+    <string name="scence">滤镜</string>
+    <string name="focus">对焦</string>
+    <string name="flash">闪光灯</string>
+    <string name="zoom">区域</string>
+    <string name="rotation">旋转</string>
+    <string name="exposure">曝光</string>
+
+
+</resources>
